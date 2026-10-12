@@ -1,0 +1,8 @@
+{
+  "scheduleDate": "22-10-2026",
+  "scheduleTime": "14:30",
+  "jobDescription": "Install and configure the WiFi router at the customer premises",
+  "activityName": "Router installation and configuration",
+  "estimatedTimeMins": "45",
+  "troubleshootNotes": "Check signal strength in all rooms and verify internet connectivity after installation"
+}

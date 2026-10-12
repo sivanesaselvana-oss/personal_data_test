@@ -1,0 +1,39 @@
+{
+  "login": {
+    "pagePath": "/login",
+    "pageTitle": "Login",
+    "ssoUrlPattern": "onebillsoftware\\.com/1b_oauth_login\\.jsp"
+  },
+  "jobs": {
+    "pagePath": "/jobs"
+  },
+  "manageRequests": {
+    "pagePath": "/request-forms",
+    "shareForm": {
+      "shareLinkPath": "/create-request-form",
+      "copiedButtonLabel": "Copied!",
+      "copiedToastMessage": "Link copied to clipboard!"
+    },
+    "newRequest": {
+      "allowedInitialStatuses": [
+        "New",
+        "Scheduled"
+      ],
+      "reqNumberPattern": "^REQ-\\d+$",
+      "maxRefreshes": 6,
+      "refreshIntervalMs": 10000
+    },
+    "jobCreation": {
+      "jobIdPattern": "^JOB-\\d+$",
+      "maxRefreshes": 6,
+      "refreshIntervalMs": 10000
+    }
+  },
+  "createServiceRequest": {
+    "heading": "Create Service Request",
+    "submitConfirmation": {
+      "title": "Request Submitted Successfully",
+      "message": "Your service request has been received. We will get back to you shortly."
+    }
+  }
+}
